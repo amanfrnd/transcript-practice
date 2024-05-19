@@ -4,6 +4,7 @@ import Counter from './component/Counter'
 import FnComponent from './component/FnComponent'
 import FnParameter from './component/FnParameter'
 import FormComponent from './component/FormComponent'
+import LoginCondition from './component/LoginCondition'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <FnParameter />
       <hr />
       <FormComponent />
+      <hr />
+      <LoginCondition />
     </>
   )
 }
