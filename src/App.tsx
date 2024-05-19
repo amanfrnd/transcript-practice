@@ -5,6 +5,7 @@ import FnComponent from './component/FnComponent'
 import FnParameter from './component/FnParameter'
 import FormComponent from './component/FormComponent'
 import LoginCondition from './component/LoginCondition'
+import TableMap from './component/TableMap'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <FormComponent />
       <hr />
       <LoginCondition />
+      <hr />
+      <TableMap />
     </>
   )
 }
