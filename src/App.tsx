@@ -2,6 +2,7 @@ import './App.css'
 import ClsComponent from './component/ClsComponent'
 import Counter from './component/Counter'
 import FnComponent from './component/FnComponent'
+import FnParameter from './component/FnParameter'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <ClsComponent userId={5} username="Kakku"/>
       <hr />
       <Counter />
+      <hr />
+      <FnParameter />
     </>
   )
 }
