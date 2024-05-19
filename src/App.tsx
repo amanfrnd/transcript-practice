@@ -3,6 +3,7 @@ import ClsComponent from './component/ClsComponent'
 import Counter from './component/Counter'
 import FnComponent from './component/FnComponent'
 import FnParameter from './component/FnParameter'
+import FormComponent from './component/FormComponent'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Counter />
       <hr />
       <FnParameter />
+      <hr />
+      <FormComponent />
     </>
   )
 }
