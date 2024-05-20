@@ -1,6 +1,7 @@
 import './App.css'
 import ClsComponent from './component/ClsComponent'
 import Counter from './component/Counter'
+import FetchComponent from './component/FetchComponent'
 import FnComponent from './component/FnComponent'
 import FnParameter from './component/FnParameter'
 import FormComponent from './component/FormComponent'
@@ -24,6 +25,8 @@ function App() {
       <LoginCondition />
       <hr />
       <TableMap />
+      <hr />
+      <FetchComponent />
     </>
   )
 }
