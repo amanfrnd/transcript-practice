@@ -1,16 +1,13 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import { IUserMap } from '../models/IUserMap'
+import { UserService } from '../services/UserService'
 interface IState{
     users:IUserMap[]
 }
 
 const TableMap = () => {
     const [state,setState]=useState<IState>({
-        users:[
-            {SNo:1,name:'aman',age:28},
-            {SNo:2,name:'akash',age:29},
-            {SNo:3,name:'mithun',age:26},
-        ]
+        users:UserService.getAllUsers()
     })
   return (
     <div>
